@@ -7,13 +7,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/gin-gonic/gin"
 	"github.com/vkd/goas-examples/simple_rest_api/handlers"
 )
-
-func init() {
-	gin.SetMode(gin.TestMode)
-}
 
 type PetModelTest struct {
 	Id   int64  `json:"id"`
